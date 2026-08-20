@@ -1,5 +1,9 @@
 # Comprehensive Iris Dataset Analysis & 18-Model Benchmark
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://surupi-iris-ml-app.streamlit.app/)
+
+> 🚀 **Live Interactive Web Application**: [surupi-iris-ml-app.streamlit.app](https://surupi-iris-ml-app.streamlit.app/)
+
 An end-to-end data science and machine learning repository performing exploratory data analysis, statistical hypothesis testing, 2D/3D dimensionality reduction, **18-model supervised classification benchmarking**, and unsupervised clustering on the Iris dataset.
 
 ---
