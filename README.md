@@ -9,6 +9,8 @@ An end-to-end data science and machine learning repository performing explorator
 ```
 ├── README.md                          # Project documentation & summary leaderboard
 ├── LICENSE                            # MIT License
+├── requirements.txt                   # Dependency requirements (streamlit, sklearn, etc.)
+├── app.py                             # Interactive Streamlit Web Application
 ├── ANALYSIS_REPORT.md                 # Detailed report with statistics, charts, and analysis
 ├── Comprehensive_Iris_Analysis.ipynb  # Interactive Jupyter Notebook covering EDA, models & plots
 ├── Neural_Network.ipynb               # Original Keras ANN classification notebook
@@ -81,19 +83,25 @@ Models evaluated on an 80/20 stratified split with 10-Fold Stratified Cross-Vali
 
 ---
 
-## 🚀 How to Run Scripts & Generate Outputs
+## 🚀 How to Run Scripts & Launch Streamlit Web App
 
-### 1. Run Main EDA & Model Pipeline
+### 1. Launch Interactive Streamlit Web App 🌐
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+### 2. Run Main EDA & Model Pipeline
 ```bash
 python3 run_analysis.py
 ```
 
-### 2. Run 18-Model Benchmarking
+### 3. Run 18-Model Benchmarking
 ```bash
 python3 run_additional_models.py
 ```
 
-### 3. Generate Visual Charts & Master Dashboard
+### 4. Generate Visual Charts & Master Dashboard
 ```bash
 python3 generate_charts.py
 python3 generate_master_dashboard.py
