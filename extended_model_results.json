@@ -1,0 +1,277 @@
+{
+  "Gaussian Naive Bayes": {
+    "test_accuracy": 0.9666666666666667,
+    "precision": 0.9696969696969696,
+    "recall": 0.9666666666666667,
+    "f1_score": 0.9665831244778613,
+    "cv_accuracy_mean": 0.9533333333333334,
+    "cv_accuracy_std": 0.052068331172711015,
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        9,
+        1
+      ],
+      [
+        0,
+        0,
+        10
+      ]
+    ]
+  },
+  "Linear Discriminant Analysis": {
+    "test_accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "cv_accuracy_mean": 0.9733333333333334,
+    "cv_accuracy_std": 0.04422166387140532,
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        10
+      ]
+    ]
+  },
+  "Quadratic Discriminant Analysis (QDA)": {
+    "test_accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "cv_accuracy_mean": 0.9733333333333334,
+    "cv_accuracy_std": 0.04422166387140532,
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        10
+      ]
+    ]
+  },
+  "Extra Trees Classifier": {
+    "test_accuracy": 0.9333333333333333,
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1_score": 0.9333333333333333,
+    "cv_accuracy_mean": 0.9533333333333334,
+    "cv_accuracy_std": 0.052068331172711015,
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        9,
+        1
+      ],
+      [
+        0,
+        1,
+        9
+      ]
+    ]
+  },
+  "AdaBoost Classifier": {
+    "test_accuracy": 0.9333333333333333,
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1_score": 0.9333333333333333,
+    "cv_accuracy_mean": 0.9533333333333334,
+    "cv_accuracy_std": 0.052068331172711015,
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        9,
+        1
+      ],
+      [
+        0,
+        1,
+        9
+      ]
+    ]
+  },
+  "Hist Gradient Boosting": {
+    "test_accuracy": 0.9,
+    "precision": 0.9023569023569024,
+    "recall": 0.9,
+    "f1_score": 0.8997493734335839,
+    "cv_accuracy_mean": 0.9400000000000001,
+    "cv_accuracy_std": 0.04666666666666665,
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        9,
+        1
+      ],
+      [
+        0,
+        2,
+        8
+      ]
+    ]
+  },
+  "Ridge Classifier": {
+    "test_accuracy": 0.7666666666666667,
+    "precision": 0.7765567765567766,
+    "recall": 0.7666666666666667,
+    "f1_score": 0.7612958226768968,
+    "cv_accuracy_mean": 0.8266666666666668,
+    "cv_accuracy_std": 0.10832051206181281,
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        5
+      ],
+      [
+        0,
+        2,
+        8
+      ]
+    ]
+  },
+  "Passive Aggressive": {
+    "test_accuracy": 0.9,
+    "precision": 0.9023569023569025,
+    "recall": 0.9,
+    "f1_score": 0.8997493734335839,
+    "cv_accuracy_mean": 0.8533333333333333,
+    "cv_accuracy_std": 0.10666666666666669,
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        2
+      ],
+      [
+        0,
+        1,
+        9
+      ]
+    ]
+  },
+  "Perceptron": {
+    "test_accuracy": 0.8666666666666667,
+    "precision": 0.8674242424242424,
+    "recall": 0.8666666666666667,
+    "f1_score": 0.8624338624338624,
+    "cv_accuracy_mean": 0.8733333333333333,
+    "cv_accuracy_std": 0.09165151389911681,
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        1,
+        7,
+        2
+      ],
+      [
+        0,
+        1,
+        9
+      ]
+    ]
+  },
+  "Nearest Centroid": {
+    "test_accuracy": 0.8333333333333334,
+    "precision": 0.8350168350168351,
+    "recall": 0.8333333333333334,
+    "f1_score": 0.8329156223893065,
+    "cv_accuracy_mean": 0.86,
+    "cv_accuracy_std": 0.08666666666666667,
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        7,
+        3
+      ],
+      [
+        0,
+        2,
+        8
+      ]
+    ]
+  },
+  "Radius Neighbors": {
+    "test_accuracy": 0.8666666666666667,
+    "precision": 0.875,
+    "recall": 0.8666666666666667,
+    "f1_score": 0.8653198653198653,
+    "cv_accuracy_mean": 0.8666666666666666,
+    "cv_accuracy_std": 0.09428090415820634,
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        9,
+        1
+      ],
+      [
+        0,
+        3,
+        7
+      ]
+    ]
+  }
+}

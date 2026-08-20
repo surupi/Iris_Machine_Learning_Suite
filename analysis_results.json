@@ -1,0 +1,530 @@
+{
+  "dataset_shape": [
+    150,
+    5
+  ],
+  "missing_values": {
+    "SepalLengthCm": 0,
+    "SepalWidthCm": 0,
+    "PetalLengthCm": 0,
+    "PetalWidthCm": 0,
+    "Species": 0
+  },
+  "duplicate_rows": 3,
+  "class_counts": {
+    "Iris-setosa": 50,
+    "Iris-versicolor": 50,
+    "Iris-virginica": 50
+  },
+  "overall_stats": {
+    "SepalLengthCm": {
+      "count": 150.0,
+      "mean": 5.843333333333334,
+      "std": 0.828066127977863,
+      "min": 4.3,
+      "25%": 5.1,
+      "50%": 5.8,
+      "75%": 6.4,
+      "max": 7.9
+    },
+    "SepalWidthCm": {
+      "count": 150.0,
+      "mean": 3.0540000000000003,
+      "std": 0.4335943113621737,
+      "min": 2.0,
+      "25%": 2.8,
+      "50%": 3.0,
+      "75%": 3.3,
+      "max": 4.4
+    },
+    "PetalLengthCm": {
+      "count": 150.0,
+      "mean": 3.758666666666666,
+      "std": 1.7644204199522626,
+      "min": 1.0,
+      "25%": 1.6,
+      "50%": 4.35,
+      "75%": 5.1,
+      "max": 6.9
+    },
+    "PetalWidthCm": {
+      "count": 150.0,
+      "mean": 1.1986666666666668,
+      "std": 0.7631607417008411,
+      "min": 0.1,
+      "25%": 0.3,
+      "50%": 1.3,
+      "75%": 1.8,
+      "max": 2.5
+    }
+  },
+  "species_stats": {
+    "Iris-setosa": {
+      "SepalLengthCm": {
+        "count": 50.0,
+        "mean": 5.006,
+        "std": 0.35248968721345136,
+        "min": 4.3,
+        "25%": 4.8,
+        "50%": 5.0,
+        "75%": 5.2,
+        "max": 5.8
+      },
+      "SepalWidthCm": {
+        "count": 50.0,
+        "mean": 3.418,
+        "std": 0.38102439795469095,
+        "min": 2.3,
+        "25%": 3.125,
+        "50%": 3.4,
+        "75%": 3.6750000000000003,
+        "max": 4.4
+      },
+      "PetalLengthCm": {
+        "count": 50.0,
+        "mean": 1.464,
+        "std": 0.17351115943644546,
+        "min": 1.0,
+        "25%": 1.4,
+        "50%": 1.5,
+        "75%": 1.5750000000000002,
+        "max": 1.9
+      },
+      "PetalWidthCm": {
+        "count": 50.0,
+        "mean": 0.244,
+        "std": 0.1072095030816784,
+        "min": 0.1,
+        "25%": 0.2,
+        "50%": 0.2,
+        "75%": 0.3,
+        "max": 0.6
+      }
+    },
+    "Iris-versicolor": {
+      "SepalLengthCm": {
+        "count": 50.0,
+        "mean": 5.936,
+        "std": 0.5161711470638634,
+        "min": 4.9,
+        "25%": 5.6,
+        "50%": 5.9,
+        "75%": 6.3,
+        "max": 7.0
+      },
+      "SepalWidthCm": {
+        "count": 50.0,
+        "mean": 2.7700000000000005,
+        "std": 0.3137983233784114,
+        "min": 2.0,
+        "25%": 2.525,
+        "50%": 2.8,
+        "75%": 3.0,
+        "max": 3.4
+      },
+      "PetalLengthCm": {
+        "count": 50.0,
+        "mean": 4.26,
+        "std": 0.46991097723995795,
+        "min": 3.0,
+        "25%": 4.0,
+        "50%": 4.35,
+        "75%": 4.6,
+        "max": 5.1
+      },
+      "PetalWidthCm": {
+        "count": 50.0,
+        "mean": 1.3259999999999998,
+        "std": 0.19775268000454405,
+        "min": 1.0,
+        "25%": 1.2,
+        "50%": 1.3,
+        "75%": 1.5,
+        "max": 1.8
+      }
+    },
+    "Iris-virginica": {
+      "SepalLengthCm": {
+        "count": 50.0,
+        "mean": 6.587999999999998,
+        "std": 0.6358795932744322,
+        "min": 4.9,
+        "25%": 6.225,
+        "50%": 6.5,
+        "75%": 6.9,
+        "max": 7.9
+      },
+      "SepalWidthCm": {
+        "count": 50.0,
+        "mean": 2.974,
+        "std": 0.32249663817263746,
+        "min": 2.2,
+        "25%": 2.8,
+        "50%": 3.0,
+        "75%": 3.1750000000000003,
+        "max": 3.8
+      },
+      "PetalLengthCm": {
+        "count": 50.0,
+        "mean": 5.5520000000000005,
+        "std": 0.5518946956639834,
+        "min": 4.5,
+        "25%": 5.1,
+        "50%": 5.55,
+        "75%": 5.875,
+        "max": 6.9
+      },
+      "PetalWidthCm": {
+        "count": 50.0,
+        "mean": 2.0260000000000002,
+        "std": 0.2746500556366674,
+        "min": 1.4,
+        "25%": 1.8,
+        "50%": 2.0,
+        "75%": 2.3,
+        "max": 2.5
+      }
+    }
+  },
+  "skewness": {
+    "SepalLengthCm": 0.3149109566369728,
+    "SepalWidthCm": 0.3340526621720866,
+    "PetalLengthCm": -0.27446425247378287,
+    "PetalWidthCm": -0.10499656214412734
+  },
+  "kurtosis": {
+    "SepalLengthCm": -0.5520640413156395,
+    "SepalWidthCm": 0.2907810623654279,
+    "PetalLengthCm": -1.4019208006454036,
+    "PetalWidthCm": -1.3397541711393433
+  },
+  "correlation_matrix": {
+    "SepalLengthCm": {
+      "SepalLengthCm": 1.0,
+      "SepalWidthCm": -0.10936924995064931,
+      "PetalLengthCm": 0.8717541573048716,
+      "PetalWidthCm": 0.8179536333691642
+    },
+    "SepalWidthCm": {
+      "SepalLengthCm": -0.10936924995064931,
+      "SepalWidthCm": 1.0,
+      "PetalLengthCm": -0.4205160964011539,
+      "PetalWidthCm": -0.35654408961380507
+    },
+    "PetalLengthCm": {
+      "SepalLengthCm": 0.8717541573048716,
+      "SepalWidthCm": -0.4205160964011539,
+      "PetalLengthCm": 1.0,
+      "PetalWidthCm": 0.9627570970509662
+    },
+    "PetalWidthCm": {
+      "SepalLengthCm": 0.8179536333691642,
+      "SepalWidthCm": -0.35654408961380507,
+      "PetalLengthCm": 0.9627570970509662,
+      "PetalWidthCm": 1.0
+    }
+  },
+  "shapiro_test": {
+    "Iris-setosa": {
+      "SepalLengthCm": {
+        "stat": 0.977698549796646,
+        "p_value": 0.4595131499174534
+      },
+      "SepalWidthCm": {
+        "stat": 0.9686918964570316,
+        "p_value": 0.20465666067562632
+      },
+      "PetalLengthCm": {
+        "stat": 0.9549461051602878,
+        "p_value": 0.0546504880997188
+      },
+      "PetalWidthCm": {
+        "stat": 0.8138167558864364,
+        "p_value": 1.852556745576707e-06
+      }
+    },
+    "Iris-versicolor": {
+      "SepalLengthCm": {
+        "stat": 0.9778356785897521,
+        "p_value": 0.4647370359250263
+      },
+      "SepalWidthCm": {
+        "stat": 0.9741332819702798,
+        "p_value": 0.3379951061741378
+      },
+      "PetalLengthCm": {
+        "stat": 0.96600440254332,
+        "p_value": 0.15847783815657573
+      },
+      "PetalWidthCm": {
+        "stat": 0.9476263359557384,
+        "p_value": 0.027277803876105258
+      }
+    },
+    "Iris-virginica": {
+      "SepalLengthCm": {
+        "stat": 0.971179397111026,
+        "p_value": 0.25831474614079086
+      },
+      "SepalWidthCm": {
+        "stat": 0.9673905311257006,
+        "p_value": 0.18089604109069918
+      },
+      "PetalLengthCm": {
+        "stat": 0.9621864428612802,
+        "p_value": 0.10977536903223506
+      },
+      "PetalWidthCm": {
+        "stat": 0.9597714702389373,
+        "p_value": 0.0869541872909336
+      }
+    }
+  },
+  "anova_results": {
+    "SepalLengthCm": {
+      "anova_f_stat": 119.26450218450468,
+      "anova_p_val": 1.6696691907693826e-31,
+      "kruskal_stat": 96.93743600064833,
+      "kruskal_p_val": 8.91873433246198e-22
+    },
+    "SepalWidthCm": {
+      "anova_f_stat": 47.36446140299382,
+      "anova_p_val": 1.3279165184572242e-16,
+      "kruskal_stat": 62.49463010053111,
+      "kruskal_p_val": 2.6882119006774528e-14
+    },
+    "PetalLengthCm": {
+      "anova_f_stat": 1179.0343277002194,
+      "anova_p_val": 3.0519758018278374e-91,
+      "kruskal_stat": 130.41406912893967,
+      "kruskal_p_val": 4.7967237479455454e-29
+    },
+    "PetalWidthCm": {
+      "anova_f_stat": 959.3244057257613,
+      "anova_p_val": 4.376956957488959e-85,
+      "kruskal_stat": 131.09335318823713,
+      "kruskal_p_val": 3.415387999117524e-29
+    }
+  },
+  "pca_explained_variance_ratio": [
+    0.7277045209380136,
+    0.23030523267680625,
+    0.03683831957627389,
+    0.005151926808906376
+  ],
+  "pca_cumulative_variance": [
+    0.7277045209380136,
+    0.9580097536148199,
+    0.9948480731910938,
+    1.0000000000000002
+  ],
+  "lda_explained_variance_ratio": [
+    0.9914724756595077,
+    0.008527524340492327
+  ],
+  "supervised_models": {
+    "Logistic Regression": {
+      "test_accuracy": 0.9333333333333333,
+      "precision": 0.9333333333333333,
+      "recall": 0.9333333333333333,
+      "f1_score": 0.9333333333333333,
+      "cv_accuracy_mean": 0.9533333333333334,
+      "cv_accuracy_std": 0.052068331172711015,
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          1
+        ],
+        [
+          0,
+          1,
+          9
+        ]
+      ]
+    },
+    "Decision Tree": {
+      "test_accuracy": 0.9,
+      "precision": 0.9023569023569024,
+      "recall": 0.9,
+      "f1_score": 0.8997493734335839,
+      "cv_accuracy_mean": 0.9333333333333333,
+      "cv_accuracy_std": 0.05163977794943221,
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          1
+        ],
+        [
+          0,
+          2,
+          8
+        ]
+      ],
+      "feature_importances": {
+        "SepalLengthCm": 0.0062499999999999995,
+        "SepalWidthCm": 0.02916666666666666,
+        "PetalLengthCm": 0.5585682957393484,
+        "PetalWidthCm": 0.406015037593985
+      }
+    },
+    "Random Forest": {
+      "test_accuracy": 0.9333333333333333,
+      "precision": 0.9333333333333333,
+      "recall": 0.9333333333333333,
+      "f1_score": 0.9333333333333333,
+      "cv_accuracy_mean": 0.9466666666666667,
+      "cv_accuracy_std": 0.04988876515698587,
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          1
+        ],
+        [
+          0,
+          1,
+          9
+        ]
+      ],
+      "feature_importances": {
+        "SepalLengthCm": 0.11634850540739942,
+        "SepalWidthCm": 0.014999733101994138,
+        "PetalLengthCm": 0.43146640568097017,
+        "PetalWidthCm": 0.4371853558096363
+      }
+    },
+    "Gradient Boosting": {
+      "test_accuracy": 0.9,
+      "precision": 0.9023569023569024,
+      "recall": 0.9,
+      "f1_score": 0.8997493734335839,
+      "cv_accuracy_mean": 0.9400000000000001,
+      "cv_accuracy_std": 0.04666666666666665,
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          1
+        ],
+        [
+          0,
+          2,
+          8
+        ]
+      ],
+      "feature_importances": {
+        "SepalLengthCm": 0.0035783899366630643,
+        "SepalWidthCm": 0.015129986159428576,
+        "PetalLengthCm": 0.3456551132050968,
+        "PetalWidthCm": 0.6356365106988116
+      }
+    },
+    "SVM (RBF)": {
+      "test_accuracy": 0.9666666666666667,
+      "precision": 0.9696969696969696,
+      "recall": 0.9666666666666667,
+      "f1_score": 0.9665831244778613,
+      "cv_accuracy_mean": 0.96,
+      "cv_accuracy_std": 0.04422166387140532,
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          1
+        ],
+        [
+          0,
+          0,
+          10
+        ]
+      ]
+    },
+    "K-Nearest Neighbors": {
+      "test_accuracy": 0.9333333333333333,
+      "precision": 0.9444444444444445,
+      "recall": 0.9333333333333333,
+      "f1_score": 0.9326599326599326,
+      "cv_accuracy_mean": 0.9533333333333334,
+      "cv_accuracy_std": 0.052068331172711015,
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          2,
+          8
+        ]
+      ]
+    },
+    "MLP Neural Network": {
+      "test_accuracy": 0.9666666666666667,
+      "precision": 0.9696969696969696,
+      "recall": 0.9666666666666667,
+      "f1_score": 0.9665831244778613,
+      "cv_accuracy_mean": 0.9466666666666667,
+      "cv_accuracy_std": 0.0581186525805423,
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          1
+        ],
+        [
+          0,
+          0,
+          10
+        ]
+      ]
+    }
+  },
+  "clustering": {
+    "kmeans": {
+      "ari": 0.6201351808870379,
+      "nmi": 0.659486892724918
+    },
+    "agglomerative": {
+      "ari": 0.6153229932145449,
+      "nmi": 0.6754701853436886
+    }
+  }
+}
