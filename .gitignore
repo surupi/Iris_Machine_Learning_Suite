@@ -1,0 +1,21 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Byte-compiled / Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# OS / IDE generated files
+.DS_Store
+.vscode/
+.idea/

@@ -9,6 +9,7 @@ An end-to-end data science and machine learning repository performing explorator
 ```
 ├── README.md                          # Project documentation & summary leaderboard
 ├── LICENSE                            # MIT License
+├── .gitignore                         # Git ignore file (virtual environments, cache)
 ├── requirements.txt                   # Dependency requirements (streamlit, sklearn, etc.)
 ├── app.py                             # Interactive Streamlit Web Application
 ├── ANALYSIS_REPORT.md                 # Detailed report with statistics, charts, and analysis
